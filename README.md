@@ -2,4 +2,4 @@
 
 The methods and analysis used for the project are located entirely in Models.ipynb
 
-MoreModels.ipynb contains some extra models and analysis that were added on later and not used initially.
+MoreModels.ipynb contains some extra models and analysis that were added on later and not used initially
