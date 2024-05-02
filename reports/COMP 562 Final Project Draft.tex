@@ -83,11 +83,11 @@ Third, we use a random forest model. In this random forest model, we set the max
 \end{figure}
 
 \subsection{KNN}
-\ldots
+Next, we attempted to classify the data with a k-nearest neighbors classifier. The number of neighbors used was determined by taking the square root of the number of total samples. The resulting confusion matrix is below (note that feature importance is not available for KNN).
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.3\textwidth]{knn_cm.png}
-  \caption{KNN confusion matrix (feature importance not available for KNN)}
+  \caption{KNN confusion matrix}
   \label{fig:knn}
 \end{figure}
 
@@ -142,7 +142,7 @@ We performed hyperparametric tuning of the AdaBoost classifier. This involved us
 \section{Conclusion}
 
 \subsection{Model Accuracy}
-The combined accuracy of all models ranges from 0.72558 to 0.75536. AdaBoost surpasses other models in terms of both accuracy (0.75536) and F1 score (0.75502), making it the most compelling model in estimating diabetes. Its high-rate precision (0.75694) and recall (0.75536) indicate a balanced performance, which is essential for practical applications in the medical field. Despite AdaBoost's immensely competitive success, Random Forest and XGBoost also show respectable results, with XGBoost reaching the second highest F1 score. This suggests that ensemble methods, in general, are more effective for this application due to their ability to handle complex patterns and data imbalances better than simpler models like Logistic Regression.
+The combined accuracy of all models ranges from 0.72558 to 0.75536. AdaBoost surpasses other models in terms of both accuracy (0.75536) and F1 score (0.75502), making it the most compelling model in estimating diabetes. Its high-rate precision (0.75694) and recall (0.75536) indicate a balanced performance, which is essential for practical applications in the medical field. Despite AdaBoost's immensely competitive success, Random Forest and XGBoost also show respectable results, with XGBoost reaching the second highest F1 score. This suggests that ensemble methods, in general, are more effective for this application due to their ability to handle complex patterns and data imbalances better than simpler models like Logistic Regression. Likewise, KNN provided the worst results as this method does not handle datasets with many samples as well.
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{combined.png}
