@@ -6,4 +6,4 @@ MoreModels.ipynb contains some extra models and analysis that were added on late
 
 Graphs to help visually compare the various scores are located in Graphs.ipynb
 
-Copies of the report are in the reports folder
+Copies of the report are in the reports folder in both .tex and PDF formats, along with various images
