@@ -1,10 +1,6 @@
 # COMP 562 Final Project
 
-Group members:
-Alexander Zheng - PID: 730405633
-Connor Morin - PID: 730411581
-Jingyu Li - PID:
-Yibo Wang - PID: 730526118
+Group members: Alexander Zheng (PID: 730405633), Connor Morin (PID: 730411581), Jingyu Li (PID: 730515473), Yibo Wang (PID: 730526118)
 
 "COMP 562 Final Project.pdf" contains the actual final report
 
